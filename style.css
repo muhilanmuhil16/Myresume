@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+div{
+    margin-bottom: 1%;
+    min-width: 65%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    
+}
+.im img{
+    position: relative;
+    width:25%;
+    left: 35%;
+    border-radius: 20%;
+    box-shadow:6px 5px 7px grey;  
+}
+b{
+    text-decoration: underline;
+}
+p{
+    text-indent: 20px;
+}
+#obj{
+    margin-top:8%;
+    text-align: center;
+    width:25%;
+    opacity:0;
+}
+#ach{
+    text-align: center;
+    width:35%;
+    opacity:0;
+}
+    #edu{
+    text-align: center;
+    width:35%;
+    opacity:0;
+}
+#cet{
+    text-align: center;
+    width:35%;
+    opacity:0;
+}#ts{
+    text-align: center;
+    width:35%;
+    opacity:0;
+}#prj{
+    text-align: center;
+    width:35%;
+    opacity:0;
+}#ss{
+    text-align: center;
+    width:35%;
+    opacity:0;
+}#hb{
+    text-align: center;
+    width:35%;
+    opacity:0;
+}

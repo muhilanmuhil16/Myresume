@@ -1,0 +1,68 @@
+const tg=gsap.timeline();
+tg.to("#obj",{
+    scrollTrigger:{
+        scrub:true,
+        trigger:"#obj",
+    },
+    color:"white",
+    opacity:1,
+})
+.to("#ach",{
+    scrollTrigger:{
+        scrub:true,
+        trigger:"#ach",
+    },
+    opacity:1,
+color:"white",
+    
+})
+.to("#edu",{
+    scrollTrigger:{
+        scrub:true,
+        trigger:"#edu",
+    },
+    color:"white",
+    opacity:1,
+})
+.to("#cet",{
+    scrollTrigger:{
+        scrub:true,
+        trigger:"#edu",
+    },
+color:"white",
+    opacity:1,
+    
+})
+.to("#ts",{
+    scrollTrigger:{
+        scrub:true,
+        trigger:"#edu",
+    },
+color:"white",
+    opacity:1,
+})
+.to("#prj",{
+    scrollTrigger:{
+        scrub:true,
+        trigger:"#cet",
+    },
+color:"white",
+    opacity:1,
+})
+.to("#ss",{
+    scrollTrigger:{
+        scrub:true,
+        trigger:"#cet",
+    },
+color:"white",
+    opacity:1,
+    
+})
+.to("#hb",{
+    scrollTrigger:{
+        scrub:true,
+        trigger:"#ts",
+    },
+color:"white",
+    opacity:1,
+})
